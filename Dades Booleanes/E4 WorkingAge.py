@@ -7,7 +7,7 @@ Exercici WorkingAge
 """
 askAge=int(input("Dime tu edad: "))
 
-if askAge >=16:
+if askAge >=16 and askAge <65:
     print("tienes edad legal para trabajar")
-elif askAge>=65:
-    print("no tienes edad para trabajar es hora de jubilarse")
+else:
+    print("no tienes edad para trabajar")
