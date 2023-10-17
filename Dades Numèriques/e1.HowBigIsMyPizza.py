@@ -10,4 +10,4 @@ import math
 radi=float(input(""))
 diametre=radi**2
 areaCercle=diametre*math.pi
-print("La superfície de la pizza es ",areaCercle)
+print("La superfície de la pizza es ",round(areaCercle,2))
